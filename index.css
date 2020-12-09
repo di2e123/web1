@@ -80,7 +80,7 @@ li {
 	font-family: 'Black Han Sans', sans-serif;
 }
 
-.search{ 
+.search{
 	color: #63717f;
     border: none;
     font-size: 14px;
@@ -90,14 +90,6 @@ li {
 
 form{
 	text-align:center;
-}
-
-
-.rotation {
-	font-family: 'Ubuntu', sans-serif;
-	padding-top: 400px;
-	font-weight: bold;
-	color: #ffffff;
 }
 
 .context{
@@ -144,3 +136,11 @@ input{
 	padding: 15px 140px 15px 20px;
 }
 
+.rotation>p{
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 100px;
+	margin-left: 50px;
+	text-align:left;
+}
