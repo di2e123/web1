@@ -153,3 +153,15 @@ input{
 	margin-left: 50px;
 	text-align:left;
 }
+
+.rotation{
+	color:#ffffff;
+}
+
+.rotation .fire img{
+		margin: 3px 0;
+		padding: 1px 3px;
+		border-width: 3px;
+		border-color: #fa058c;
+		border-style: solid;
+}
