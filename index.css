@@ -144,3 +144,12 @@ input{
 	margin-left: 50px;
 	text-align:left;
 }
+
+.winrate>p{
+	font-weight: bold;
+	color: #ffffff;
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 100px;
+	margin-left: 50px;
+	text-align:left;
+}
