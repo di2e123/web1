@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="Index.css?ver=1" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding|Ubuntu|Black+Han+Sans" rel="stylesheet">
+<meta charset="UTF-8">
+<title>롤 전적 검색 FLY.GG</title>
+</head>
+<body>
+<div class="l-header">
+	<div class="header">
+		<ul class="menu">
+			<li class="menu_item menu_item-logo">
+				<a href="./Index.jsp">
+					<span class="logo_name">
+					...
+					</span>
+				</a>
+			</li>
+			<li class="menu_item menu_item-active">
+				<a href="./Index.jsp" class="target=">
+					홈
+				</a>
+			</li>
+			<li class="menu_item">
+				<a href="/champion/statistics" class="target=">
+					챔피언
+				</a>
+			</li>
+			<li class="menu_item">
+				<a href="/statistics/" class="target=">
+					통계
+				</a>
+			</li>
+			<li class="menu_item">
+				<a href="/ranking/" class="target=">
+					랭킹
+				</a>
+			</li>
+			<li class="menu_item">
+				<a href="http://talk.op.gg/s/lol" class="target=_blank">
+					커뮤니티
+				</a>
+			</li>
+		</ul>
+	</div>
+</div>
+<div class="i-container">
+	<div class="index-logo">
+		<div class="index-logo-form index-logo_sub">
+			<a href="./Index.jsp">
+				리그오브레전드
+			</a>
+		</div>
+		<div class="index-logo-form index-logo_title">
+			<a href="./Index.jsp">
+				챔피언검색 >
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="search">
+<form action="./Index.jsp" name="name" method="post">
+  <input id="userid" name="username" placeholder="" type="text"/><br>
+</form>
+</div>
+
+<div class="rotation">
+<p style="font-weight: bold;color: #ffffff;font-family: 'Ubuntu', sans-serif; padding-top: 100px; margin-left: 50px; text-align:left;">로테이션 챔피언</p>
+</div>
+
+
+<div class="context">
+<br>
+	<img src="//opgg-static.akamaized.net/images/profile_icons/profileIcon<%=summoner.getProfileIconId()%>.jpg" class="ProfileImage">
+	<div class="level">
+	<%=summoner.getSummonerLevel()%>
+	</div>
+	<div class="name">
+	<%=summoner.getName() %>
+	</div>
+	
+</div>
+
+</body>
+</html>
