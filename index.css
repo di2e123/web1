@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+html,body{
+	margin: 0;
+}
+
+body{
+	text-align: center;
+	background: #343d46;
+	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.l-header{
+	background: #181c21/*466*/;
+	padding: 20px 0 40px 0;
+	height: 100%;
+    width: 100%;
+}
+
+.header{
+	position: relative;
+    max-width: 1300px;
+    margin: 0 auto;
+	position: relative;
+	height: 100%;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+li {
+    float: left;
+    color:#ffffff;
+}
+
+.menu_item{
+	display:block;
+	vertical-align:middle;
+	/*line-height:19px;*/
+	font-size:20px;
+}
+
+.menu_item>a{
+	font-family: 'Nanum Gothic Coding', monospace;
+	color:#fff;
+	text-decoration: none;
+	padding: 0 11px 15px 10px;
+}
+.menu_item-logo>a{
+	padding: 0 30px 0 30px;
+	font-weight: bold;
+}
+.menu_item-active>a{
+	/*color:#ffffff;*/
+	border-bottom: 3px solid transparent;
+	border-bottom-color: #fff;
+}
+
+.index-logo{
+	padding: 60px 0 10px 0;
+}
+
+.index-logo-form>a{
+	font-family: 'Black Han Sans', sans-serif;
+	text-decoration: none;
+	color:#fff466;
+}
+
+.index-logo_sub>a{
+	margin-left:-185px;
+	font-size:23px;
+}
+
+.index-logo_title>a{
+	font-size:80px;
+	font-family: 'Black Han Sans', sans-serif;
+}
+
+.search{ 
+	color: #63717f;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    /*position: relative;*/
+}
+
+form{
+	text-align:center;
+}
+
+
+.rotation {
+	font-family: 'Ubuntu', sans-serif;
+	padding-top: 400px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.context{
+	text-align: center;
+	color: white;
+}
+.name,.level{
+	color: white;
+}
+.name{
+	margin-top:10px;
+	font-weight: bold;
+	font-size: 30px;
+}
+.level{
+	margin: 0 44% 0 44%;
+	position: relative;
+	border: 3px solid #ffffff;
+	background: #343d46;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #ffffff;
+	border-radius: 20px;
+}
+.context img{
+	border-radius: 20px;
+	width: auto; height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+input{
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	background: #2b303b;
+	color: #fff;
+	/*border: 2px solid #fff466;*/
+	border:0px;
+	border-radius: 40px;
+	font-size: 16px;
+	width: 325px;
+	outline: none;
+	margin: 10px 0 10px 0;
+	padding: 15px 140px 15px 20px;
+}
+
