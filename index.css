@@ -1,36 +1,5 @@
 @charset "utf-8";
-@media (max-width:480px) {
-		html{
-				font-size: 15px;
-				width: 100%;
-		}
 
-		.l-header{
-				display: none;
-		}
-
-		.index-logo{
-			padding: 60px 0 10px 0;
-		}
-
-		.index-logo_sub>a{
-
-		}
-
-		.index-logo_title>a{
-
-		}
-
-		input{
-			width: 50%;
-		}
-}
-
-@media (min-width:481px) {
-		input{
-			width: 325px;
-		}
-}
 html,body{
 	margin: 0;
 }
@@ -39,6 +8,79 @@ body{
 	text-align: center;
 	background: #343d46;
 	font-family: 'Nanum Gothic Coding', monospace;
+}
+
+@media (max-width:480px) {
+		html{
+			font-size: 15px;
+		}
+
+		.l-header{
+			display: none;
+		}
+
+		.index-logo{
+			padding: 60px 0 10px 0;
+		}
+
+		.index-logo_sub>a{
+			margin-left: -170px;
+			font-size: 20px;
+		}
+
+		.index-logo_title>a{
+			font-size: 60px;
+		}
+
+		input{
+			width: 50%;
+		}
+
+		.l-footer{
+			position: fixed;
+			bottom: 0px;
+			background: #2b303b;
+			padding: 10px 0 10px 0;
+			height: 50px;
+		  width: 100%;
+		}
+
+		.footer{
+			font-family: 'Ubuntu', sans-serif;
+		}
+
+		.icon img{
+			width: 35px;
+			height: 35px;
+		}
+
+		.bmenu_item{
+			font-size:14px;
+		}
+
+		.bmenu_item>a{
+			font-family: 'Nanum Gothic Coding', monospace;
+			color:#fff;
+			text-decoration: none;
+		}
+}
+
+@media (min-width:481px) {
+		input{
+			width: 325px;
+		}
+		.index-logo_sub>a{
+			margin-left: -200px;
+			font-size: 31px;
+		}
+
+		.index-logo_title>a{
+			font-size: 80px;
+		}
+
+		.l-footer{
+			display: none;
+		}
 }
 
 .l-header{
@@ -91,6 +133,8 @@ li {
 	border-bottom-color: #fff;
 }
 
+
+
 .index-logo{
 	padding: 60px 0 10px 0;
 }
@@ -102,12 +146,9 @@ li {
 }
 
 .index-logo_sub>a{
-	margin-left:-200px;
-	font-size:31px;
 }
 
 .index-logo_title>a{
-	font-size:80px;
 	font-family: 'Black Han Sans', sans-serif;
 }
 
