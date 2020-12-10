@@ -71,8 +71,8 @@ li {
 }
 
 .index-logo_sub>a{
-	margin-left:-185px;
-	font-size:23px;
+	margin-left:-200px;
+	font-size:31px;
 }
 
 .index-logo_title>a{
@@ -134,34 +134,4 @@ input{
 	outline: none;
 	margin: 10px 0 10px 0;
 	padding: 15px 140px 15px 20px;
-}
-
-.rotation>p{
-	font-weight: bold;
-	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
-	padding-top: 100px;
-	margin-left: 50px;
-	text-align:left;
-}
-
-.winrate>p{
-	font-weight: bold;
-	color: #ffffff;
-	font-family: 'Ubuntu', sans-serif;
-	padding-top: 100px;
-	margin-left: 50px;
-	text-align:left;
-}
-
-.rotation{
-	color:#ffffff;
-}
-
-.rotation .fire img{
-		margin: 3px 0;
-		padding: 1px 3px;
-		border-width: 3px;
-		border-color: #fa058c;
-		border-style: solid;
 }
