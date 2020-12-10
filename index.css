@@ -1,5 +1,36 @@
 @charset "utf-8";
+@media (max-width:480px) {
+		html{
+				font-size: 15px;
+				width: 100%;
+		}
 
+		.l-header{
+				display: none;
+		}
+
+		.index-logo{
+			padding: 60px 0 10px 0;
+		}
+
+		.index-logo_sub>a{
+
+		}
+
+		.index-logo_title>a{
+
+		}
+
+		input{
+			width: 50%;
+		}
+}
+
+@media (min-width:481px) {
+		input{
+			width: 325px;
+		}
+}
 html,body{
 	margin: 0;
 }
@@ -130,7 +161,6 @@ input{
 	border:0px;
 	border-radius: 40px;
 	font-size: 16px;
-	width: 325px;
 	outline: none;
 	margin: 10px 0 10px 0;
 	padding: 15px 140px 15px 20px;
